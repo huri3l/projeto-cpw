@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cálculo de Média</title>
+</head>
+<body>
+  <header>
+    <div class="home">
+      <a href="../index/index.html">Voltar para a home</a>
+    </div>
+    <div class="title-div">
+      <h1 class="title">MÉDIA</h1> 
+      <h2 class="subtitle"><span>PORTAL DE ASSISTÊNCIA</span> IFSUL - PASSO FUNDO</h2>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div>
+        <h1>Informe as notas</h1>
+        <div>
+          <label for="grade1">Nota 1</label>
+          <input id="grade1" type="number">
+        </div>
+        <div>
+          <label for="grade2">Nota 2</label>
+          <input id="grade2" type="number">
+        </div>
+        <a onclick="calcMedia()"><span>Calcular</span></a>
+      </div>
+      <img src="../assets/images/media.svg" alt="Mulher interagindo com notebook">
+    </section>
+    <aside>
+      <h1>Resultado</h1>
+      <p id="result" class="inactive"></p>
+    </aside>
+  </main>
+  <footer>
+    <span>@ Copyright Huriel Ferreira Lopes 2020</span>
+    <span>Website desenvolvido na disciplina de CPW no curso de Ciência da Computação</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

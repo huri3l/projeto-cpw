@@ -1,0 +1,171 @@
+@media (max-width: 1280px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 960px) {
+  section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Gerais */
+body {
+  background: #417841;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 3em;
+  color: #787878;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p, span, button {
+  font-family: Roboto;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #787878;
+}
+
+header, section, aside {
+  background: #F7F7F7;
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+main aside a, main section a {
+  all: unset;
+}
+
+/* Header */
+
+header {
+  width: 90vw;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header h1 { font-weight: 800; margin: 10px; }
+header h2 { font-weight: 300; margin: 10px; }
+
+/* Main */
+
+main {
+  margin: 30px;
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+}
+
+/* Main - Section */
+
+main section {
+  width: 55vw;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main section img {
+  width: 50%;
+  height: 50%;
+}
+
+main section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+main section div a {
+  width: 280px;
+  height: 55px;
+  background: #417841;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section div a:hover {
+  background: #335E33;
+}
+
+main section div a span {
+  font-size: 2rem;
+  color: #FFFFFF; 
+}
+
+/* Main - Aside */
+
+main aside {
+  margin-left: 30px;
+  width: 22vw;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main aside p {
+  width: 70%;
+}
+
+main aside a {
+  background: #417841;
+  border-radius: 10px;
+  width: 70%;
+  height: 55px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main aside a span {
+  font-size: 2rem;
+  color: #FFFFFF; 
+}
+
+/* Footer */
+
+footer {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  background: #77DD77;
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer span, footer a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
